@@ -3,7 +3,7 @@
  * A human-written script focusing on clarity and persistence.
  */
 
-// Global state
+// Global state - Load from LocalStorage or start with empty array
 let tasks = JSON.parse(localStorage.getItem("agenda_tasks")) || [];
 
 // DOM Elements
@@ -52,7 +52,7 @@ function handleAddTask() {
     const text = inputText.value.trim();
 
     if (text === "") {
-        return; // Prevents empty tasks silently
+        return; // Prevents empty tasks
     }
 
     const newTask = {
