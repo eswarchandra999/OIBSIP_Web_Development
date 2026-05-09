@@ -9,9 +9,9 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: #f8fafc; /* Very light slate gray */
+    background-color: #f8fafc; 
     background-image: radial-gradient(#cbd5e1 0.5px, transparent 0.5px);
-    background-size: 20px 20px; /* Subtle classic grid pattern */
+    background-size: 20px 20px; 
     display: flex;
     justify-content: center;
     padding-top: 80px;
@@ -116,7 +116,6 @@ header {
     font-weight: 500;
 }
 
-/* Feature: Completed Style */
 .task-item.completed {
     border-left-color: #94a3b8;
     opacity: 0.5;
