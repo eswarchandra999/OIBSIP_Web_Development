@@ -1,7 +1,6 @@
 /* 
    Project: Dr. APJ Abdul Kalam Tribute Page
    Internship: Oasis Infobyte (2026)
-   Notes: Minimalist editorial style with interactive hover effects.
 */
 
 /* --- 1. Typography & Setup --- */
@@ -30,12 +29,11 @@ body {
 
 /* --- 2. Global Layout Elements --- */
 
-/* Thin decorative frame around the viewport */
 .site-frame {
     position: fixed;
     top: 20px; bottom: 20px; left: 20px; right: 20px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    pointer-events: none; /* Allows clicking through to content */
+    pointer-events: none;
     z-index: 1000;
 }
 
@@ -61,7 +59,7 @@ body {
 
 .main-title {
     font-family: 'Bodoni Moda', serif;
-    font-size: clamp(3rem, 10vw, 5rem); /* Responsive sizing */
+    font-size: clamp(3rem, 10vw, 5rem);
     font-weight: 400;
     line-height: 1.1;
 }
@@ -93,7 +91,6 @@ body {
     display: block;
 }
 
-/* Color reveal on hover */
 .hero-img:hover {
     filter: grayscale(0%);
 }
