@@ -65,8 +65,6 @@ function calculateSqrt() {
 
 function calculate() {
     try {
-        // Replace visual x and ÷ with math operators if you used them, 
-        // though our code uses * and / directly.
         let result = eval(display.innerText);
         
         // Handle long decimals
